@@ -1,0 +1,22 @@
+.card{
+	
+	background-image: url("../../images/colors.jpg");
+	border-radius: 5px;
+	box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.1);
+	padding: 10px;
+	margin:100px;
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	transition: transform .2s; /* Animation */
+	font-size: 35px;
+	color:white;
+	text-align:center;
+}
+
+
+
+
+.card:hover{
+	transform: scale(1.3); 
+}
